@@ -2,8 +2,8 @@ from pynput.mouse import Controller, Button
 
 _mouse = Controller()
 
-def mouse_down():
+def mouse_up():
     _mouse.press(Button.left)
 
-def mouse_up():
+def mouse_down():
     _mouse.release(Button.left)
